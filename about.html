@@ -9,12 +9,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   </head>
   <link rel="stylesheet" href="style.css">
   <body  style="background-color: #626868">
     <div style="color:#DAE2DF;" class="flex-container text-center">
-      <div class="a">
-        <p> <a class="btn btn-primary btn-sm"  href="index.html">Home</a> <a class="btn btn-primary btn-sm"  href="about.html">about</a> <a class="btn btn-primary btn-sm"  href="education.html">education</a> <a class="btn btn-primary btn-sm"  href="work.html">work</a> <a class="btn btn-primary btn-sm"  href="interest.html">interests</a> </p>
+      <div class="row a">
+        <div class="col">
+        <div class="btn-group">
+          <button  type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="material-symbols-outlined">menu</span>
+          </button> 
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="index.html" type="button">Home</a></li>
+            <li><a class="dropdown-item" href="education.html" type="button">Education</a></li>
+            <li><a class="dropdown-item" href="about.html" type="button">About</a></li>
+            <li><a class="dropdown-item" href="interest.html" type="button">Interests</a></li>
+            <li><a class="dropdown-item" href="work.html" type="button">Work</a></li>
+          </ul>
+        </div>
+      </div>
       </div>
       <div class="h5">
         <h3>about me</h3>
