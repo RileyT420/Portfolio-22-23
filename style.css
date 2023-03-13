@@ -9,22 +9,21 @@
      font-family: 'Playfair Display', serif;
      
     }
-
+   .a {
+      margin-top: 30px;
+      margin-left: 30px;
+    }
     a:link{
       color: #020c1d;
     
     }
     a:visited{
-      color: #f71735;
+      color: #505050;
     }
     a:hover{
       color: #039a3d;
     }
 
-    .img{
-      max-height: 100vh;
-      max-width: 50vw;
-    }
     .websites{
       max-height: 100vh;
       max-width: 100vw;
